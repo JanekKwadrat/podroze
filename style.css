@@ -1,0 +1,78 @@
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+    background-color: #100020;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+div#wrapper{
+    width: min(1000px, 80%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#logo{
+    padding: 40px 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+div#nav{
+    background-color: #8b0010;
+    text-align: center;
+}
+
+div#nav div{
+    display: inline-block;
+    padding: 15px 20px;
+    min-width: 15%;
+    cursor: pointer;
+    border-left: dashed 2px #6b0000;
+}
+
+div#nav div:first-child{
+    border-left: none;
+}
+
+div#nav div:hover{
+    background-color: #7b0000;
+}
+
+div#content{
+    width: 80%;
+    text-align: justify;
+    background-color: white;
+    color: black;
+    margin: 30px auto 0 auto;
+    padding: 50px 35px 35px 35px;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+div#footer{
+    font-size: 18px;
+    text-align: center;
+    padding: 25px 0;
+}
+
+::-webkit-scrollbar {
+    width: 18px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #7b0000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #4b0000;
+    border-radius: 9px;
+}
